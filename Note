@@ -1,0 +1,15 @@
+ Thực hành : Nhập và xuất dữ liệu :
+ - Chọn mục Import
+ - Chọn mục Choose File
+ - Chọn file từ thư mục máy tính
+ - Bỏ chọn Enable Foregin key
+ - Chọn Run
+
+
+ Thực hành : Làm việc với CSDL
+ - SELECT * FROM `customer` WHERE `customerName` = `Atelier graphicque` LIMIT 0, 30 => Tìm khách hàng có tên Atelier graphicque trong mảng customer
+ - SELECT * FROM `customer` WHERE `customerName` LIKE `%A%` => Tìm các khách hàng có chữ A trong tên
+ - SELECT * FROM `customer` WHERE `city` IN `Nantes`, `Las Vegas` , `Warszawa` , `NYC` => Tìm các khách hàng ở trong các thành phố Nantes, Las Vegas, Warszawa, NYC
+ - SELECT * FROM `orders` WHERE `orderNumber` BETWEEN 10100 AND 10110 => Chọn ra các khách hàng có số order trong khoảng 10100 và 10110
+ - SELECT * FROM `orders` WHERE `orderDate` <= '2003-03-03' AND `status` LIKE 'shipped' => Chọn ra các khách  hàng order trước ngày 03/03/2003 và có trạng thái là "Shipped"
+
